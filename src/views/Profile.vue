@@ -1,6 +1,6 @@
 <template>
     <div class="profile">
-      <h1>Welcome, {{ user.id }}</h1>
+      <h1>Bienvenue, {{ user.id }}</h1>
     </div>
   </template>
   
