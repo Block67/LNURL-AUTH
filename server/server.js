@@ -41,7 +41,7 @@ app.get('/login', (req, res) => { // Modifier la route à '/login/qrcode'
   const lnurlAuthMiddleware = new LnurlAuth.Middleware({
     callbackUrl: 'http://localhost:3000/login',
     cancelUrl: '/',
-    instruction: 'Scannez le QR code pour vous connecter',
+    instruction: 'Scannez  pour vous connecter',
     refreshSeconds: 5,
     title: 'Se connecter avec lnurl-auth',
     uriSchemaPrefix: 'LIGHTNING:',
